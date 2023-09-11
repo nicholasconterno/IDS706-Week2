@@ -1,7 +1,3 @@
-Sure, I can help with that! Here's a README template tailored for the provided Makefile:
-
----
-
 # IDS Week 2 
 
 Data visualization using pandas.
@@ -56,6 +52,6 @@ Below is the histogram showcasing the distribution of Rotten Tomatoes Percentage
             50%           62.500000       2.640843          46.500000  2009.000000
             75%           76.000000       4.977038          69.500000  2010.000000
             max           89.000000      66.934000          93.000000  2011.000000
-Mean of 'Rotten Tomatoes %': 48.32608695652174
-Median of 'Rotten Tomatoes %': 46.5
+Mean of 'Rotten Tomatoes %': 48.32608695652174\
+Median of 'Rotten Tomatoes %': 46.5\
 Standard Deviation of 'Rotten Tomatoes %': 26.61916965716089
