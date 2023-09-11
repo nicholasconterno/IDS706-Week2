@@ -4,3 +4,4 @@ numpy==1.20.3
 matplotlib
 pandas
 seaborn
+tabulate

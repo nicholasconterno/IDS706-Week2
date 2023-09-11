@@ -44,6 +44,9 @@ df = load_data(url)
 # Print summary statistics
 print(get_summary_statistics(df))
 
+md = df.to_markdown()
+with open('generated_markdown.md','w') as f:
+    f.write(md)
 # Assuming the dataset has a column named 'rating' 
 # (adjust column names based on the actual dataset columns)
 print(f"Mean of 'Rotten Tomatoes %': {get_mean(df, 'Rotten Tomatoes %')}")
